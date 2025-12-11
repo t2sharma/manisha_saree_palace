@@ -71,7 +71,7 @@ export default function HomePage() {
       <CategorySection
         title="Bridal & Wedding Styling"
         eyebrow="Bridal Studio"
-        description="Dedicated support for brides, grooms and families—outfits, jewelry and alterations under one roof."
+        description="Dedicated support for brides, grooms and families-outfits, jewelry and alterations under one roof."
       >
         <div className="grid gap-8 md:grid-cols-2">
           <div className="space-y-3 text-sm text-maroon/90">

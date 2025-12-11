@@ -15,7 +15,7 @@ export default function CollectionsPage() {
           </h1>
           <p className="max-w-2xl text-sm text-maroon/90">
             Discover a curated selection of sarees, bridal ensembles, salwar
-            suits, kids’ wear, men’s sherwanis and accessories—thoughtfully
+            suits, kids’ wear, men’s sherwanis and accessories-thoughtfully
             chosen to celebrate regional craftsmanship and modern silhouettes.
           </p>
         </div>

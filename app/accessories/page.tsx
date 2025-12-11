@@ -16,7 +16,7 @@ export default function AccessoriesPage() {
             Bangles, Jewelry, Bindis & Dupattas
           </h1>
           <p className="max-w-2xl text-sm text-maroon/90">
-            Complete your look with curated accessories—from traditional glass
+            Complete your look with curated accessories-from traditional glass
             and metal bangles to statement earrings, bindis, stoles and
             embellished dupattas.
           </p>

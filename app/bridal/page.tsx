@@ -23,7 +23,7 @@ export default function BridalPage() {
             </p>
             <p>
               We also coordinate outfits for mothers, sisters, grooms and
-              extended family—ensuring everyone feels special while complementing
+              extended family-ensuring everyone feels special while complementing
               the couple’s palette.
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function BridalPage() {
                 outfits for my mom and sister. Alterations were perfect and on
                 time.”
               </p>
-              <p className="text-xs text-maroon/70">— A Bay Area Bride</p>
+              <p className="text-xs text-maroon/70">- A Bay Area Bride</p>
               <p className="italic">
                 “They understood our South + North Indian wedding events and
                 suggested looks that felt true to both sides of the family.”

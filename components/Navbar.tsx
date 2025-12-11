@@ -39,6 +39,22 @@ export const Navbar = () => {
   }, [open]);
 
   useEffect(() => {
+    if (typeof document === "undefined") return;
+
+    const originalOverflow = document.body.style.overflow;
+
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = originalOverflow || "";
+    }
+
+    return () => {
+      document.body.style.overflow = originalOverflow || "";
+    };
+  }, [open]);
+
+  useEffect(() => {
     setOpen(false);
   }, [pathname]);
 

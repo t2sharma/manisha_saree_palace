@@ -19,15 +19,14 @@ export const MobileMenu = ({ open, items, currentPath, onClose }: Props) => {
 
   return (
     <div
-      className="fixed inset-0 z-30 bg-black/40 backdrop-blur-sm sm:hidden"
-      aria-hidden={!open}
+      className="fixed inset-0 z-50 h-screen w-screen bg-black/40 sm:hidden"
     >
       <div
         id="mobile-menu"
         role="dialog"
         aria-modal="true"
         aria-label="Main navigation menu"
-        className="ml-auto flex h-full w-72 max-w-full flex-col bg-cream shadow-xl transition-transform duration-300 ease-out translate-x-0"
+        className="absolute left-0 top-0 flex h-full w-4/5 max-w-xs flex-col justify-between bg-cream shadow-xl transition-transform duration-300 ease-out overflow-y-auto"
       >
         <div className="flex items-center justify-between px-4 py-3 border-b border-gold/40">
           <span className="text-xs font-semibold tracking-[0.18em] uppercase text-maroon">
@@ -42,7 +41,7 @@ export const MobileMenu = ({ open, items, currentPath, onClose }: Props) => {
             ✕
           </button>
         </div>
-        <nav className="flex-1 overflow-y-auto px-4 py-3" aria-label="Mobile">
+        <nav className="flex-1 px-4 py-3" aria-label="Mobile">
           <ul className="space-y-1">
             {items.map((item) => {
               const active = currentPath === item.href;
